@@ -1,0 +1,45 @@
+{
+  "name": "local-uri",
+  "version": "1.0.0",
+  "description": "Generates a local URI from a String or Typed Array, with fallbacks for older browsers",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "browserify test | tap-closer | smokestack | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "is-typedarray": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "smokestack": "^3.2.0",
+    "tap-closer": "^1.0.0",
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0",
+    "xhr": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/local-uri.git"
+  },
+  "keywords": [
+    "local",
+    "uri",
+    "blob",
+    "url",
+    "createURL",
+    "data",
+    "generate",
+    "browser",
+    "browserify"
+  ],
+  "homepage": "https://github.com/hughsk/local-uri",
+  "bugs": {
+    "url": "https://github.com/hughsk/local-uri/issues"
+  }
+}
